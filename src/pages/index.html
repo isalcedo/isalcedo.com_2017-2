@@ -1,153 +1,265 @@
 <div class="grid-container">
-  <div class="grid-x grid-margin-x">
-    <div class="large-12 cell">
-      <h1>Welcome to Foundation for Sites</h1>
-    </div>
-  </div> 
-
-  <div class="grid-x grid-margin-x">
-    <div class="large-12 cell">
-      <div class="callout">
-        <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-        <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-        <p>Once you've exhausted the fun in this document, you should check out:</p>
-        <div class="grid-x grid-margin-x">
-          <div class="large-4 medium-4 cell">
-            <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-          </div>
-          <div class="large-4 medium-4 cell">
-            <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-          </div>
-          <div class="large-4 medium-4 cell">
-            <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowledge.</p>
-          </div>
+    <header class="grid-x">
+        <div class="medium-1 small-2 cell logo">
+            <img src="{{root}}assets/img/logos/logo-2017-2.svg" alt="Ignacio Salcedo - Fullstack Web Developer">
         </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-4 medium-4 medium-push-2 cell">
-            <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-          </div>
-          <div class="large-4 medium-4 medium-pull-2 cell">
-            <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-          </div>        
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-x grid-margin-x">
-    <div class="large-8 medium-8 cell">
-      <h5>Here&rsquo;s your basic grid:</h5>
-      <!-- Grid Example -->
-
-      <div class="grid-x grid-margin-x">
-        <div class="large-12 cell">
-          <div class="primary callout">
-            <p><strong>This is a twelve column section in a grid-x with grid-margin-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-          </div>
-        </div>
-      </div>
-      <div class="grid-x grid-margin-x">
-        <div class="large-6 medium-6 cell">
-          <div class="primary callout">
-            <p>Six cell</p>
-          </div>
-        </div>
-        <div class="large-6 medium-6 cell">
-          <div class="primary callout">
-            <p>Six cell</p>
-          </div>
-        </div>
-      </div>
-      <div class="grid-x grid-margin-x">
-        <div class="large-4 medium-4 small-4 cell">
-          <div class="primary callout">
-            <p>Four cell</p>
-          </div>
-        </div>
-        <div class="large-4 medium-4 small-4 cell">
-          <div class="primary callout">
-            <p>Four cell</p>
-          </div>
-        </div>
-        <div class="large-4 medium-4 small-4 cell">
-          <div class="primary callout">
-            <p>Four cell</p>
-          </div>
-        </div>
-      </div>
-      
-      <hr />
-              
-      <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-      <form>
-        <div class="grid-x grid-margin-x">
-          <div class="large-12 cell">
-            <label>Input Label</label>
-            <input type="text" placeholder="large-12.cell" />
-          </div>
-        </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-4 medium-4 cell">
-            <label>Input Label</label>
-            <input type="text" placeholder="large-4.cell" />
-          </div>
-          <div class="large-4 medium-4 cell">
-            <label>Input Label</label>
-            <input type="text" placeholder="large-4.cell" />
-          </div>
-          <div class="large-4 medium-4 cell">
-            <div class="grid-x grid-margin-x collapse">
-              <label>Input Label</label>
-              <div class="input-group">
-                <input class="input-group-field" type="text" placeholder="input-group" />
-                <span class="input-group-label">.com</span>
-              </div>
+        <div class="medium-3 small-6 cell name">
+            <div>
+                <h3>Ignacio Salcedo</h3>
+                <h1>Fullstack web developer</h1>
             </div>
-          </div>
         </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-12 cell">
-            <label>Select Box</label>
-            <select>
-              <option value="husker">Husker</option>
-              <option value="starbuck">Starbuck</option>
-              <option value="hotdog">Hot Dog</option>
-              <option value="apollo">Apollo</option>
-            </select>
-          </div>
+        <div class="large-8 cell contact-info">
+            <a href="https://isalcedo.com" class="show-for-medium">
+                https://isalcedo.com
+            </a>
+            <a href="mailto:ignacio@isalcedo.com">
+                <img src="{{root}}assets/img/icons/icon-clip.svg" alt="Send an Email" />
+                ignacio@isalcedo.com
+            </a>
+            <a href="tel:+573504932855">
+                <img src="{{root}}assets/img/icons/icon-mobile.svg" alt="Make a Call" />
+                +573504932855
+            </a>
         </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-6 medium-6 cell">
-            <label>Choose Your Favorite</label>
-            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-            <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-          </div>
-          <div class="large-6 medium-6 cell">
-            <label>Check these out</label>
-            <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-            <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-          </div>
+    </header>
+    <section class="general-photo">
+        <div class="grid-x">
+            <div class="medium-3 cell general-list show-for-medium">
+                <ul>
+                    <li>· Venezuelan</li>
+                    <li>· 29 years old</li>
+                    <li>· Married</li>
+                    <li>· High School Degree</li>
+                    <li>· Father of two children</li>
+                </ul>
+            </div>
+            <div class="large-6 medium-6 text-center cell">
+                <img src="{{root}}assets/img/Ignacio-Salcedo.png" class="me" alt="Ignacio Salcedo - Fullstack Web Developer">
+            </div>
+            <div class="small-6 cell show-for-small-only general-list">
+                <ul>
+                    <li>· Venezuelan</li>
+                    <li>· 29 years old</li>
+                    <li>· Married</li>
+                    <li>· High School Degree</li>
+                    <li>· Father of two children</li>
+                </ul>
+            </div>
+            <div class="medium-3 small-6 cell">
+                <div class="location">
+                    <h2>
+                        <img src="{{root}}assets/img/icons/icon-location.svg" alt="Send an Email" />
+                        Bogotá. Colombia
+                    </h2>
+                    <h3>
+                        <a href="/IgnacioSalcedo-Curr2017-2.pdf">
+                            Download Curriculum
+                        </a>
+                    </h3>
+                </div>
+            </div>
         </div>
-        <div class="grid-x grid-margin-x">
-          <div class="large-12 cell">
-            <label>Textarea Label</label>
-            <textarea placeholder="small-12.cell"></textarea>
-          </div>
-        </div>
-      </form>
-    </div>     
+    </section>
+    <section class="main-body">
+        <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+                <p>
+                    I'm a Fullstack web developer with more than 10 years of experience working with the web. I'm
+                    focused
+                    in PHP development but I do know how to write Python and a little bit of C#. By my experience in
+                    frontend development and thanks to the continuous work with many designers I have skills in UI and
+                    UIX. I have knowledge in Linux Server management: LAMP or different environments.
+                </p>
+                <p>
+                    <strong>Most used tools</strong>
+                    : PHPstorm, Sublime Text, Inkscape, SSH, Apache, Nginx, Gimp, Terminator, Bitbucket, GitHub.
+                </p>
+                <p>
+                    <strong>Current Machine</strong>
+                    : AMD FX4170, 8Gb RAM HyperX Kingston, Nvidia GT730, Archlinux / Windows 10, Gnome.
+                </p>
+                <h2>
+                    Skills & Languages
+                </h2>
+                <p class="stars">* PHP   ★★★★★<br class="show-for-small-only">  * Python  ★★★★☆<br class="show-for-small-only"> * C#         ★★☆☆☆<br>* HTML  ★★★★★<br class="show-for-small-only">  * Sass    ★★★★★<br class="show-for-small-only"> * Javascript ★★★★☆<br>* Linux ★★★★☆<br class="show-for-small-only">  * Windows ★★★★☆<br class="show-for-small-only"> * Git        ★★★★☆
+                </p>
+                <p>
+                    * English:
+                    <br>
+                    <strong>Spoken</strong>: ★★★☆☆<br class="show-for-small-only">
+                    <strong>Written</strong>: ★★★★☆<br class="show-for-small-only">
+                    <strong>Read</strong>: ★★★★☆<br class="show-for-small-only">
+                    <br>
+                    * Spanish:
+                    <br>
+                    <strong>Spoken</strong>: Native<br class="show-for-small-only">
+                    <strong>Written</strong>: Native<br class="show-for-small-only">
+                    <strong>Read</strong>: Native<br class="show-for-small-only">
+                </p>
+                <h2>
+                    Portfolio
+                </h2>
+                <br>
+                <h2>Venezuela</h2>
+                <p>
+                    <span class="orange">RGRart</span>
+                    - http://rgrart.net Joomla 2.x + HTML/CSS/JS
+                </p>
+                <p>
+                    <span class="orange">Nuestra señor del Socorro</span>
+                    - http://virgendelsocorro.org.ve Joomla 3.x + HTML/CSS/JS
+                </p>
+                <p>
+                    <span class="orange">Rodilla Laser</span>
+                    - http://rodillalaser.com Joomla 3.x + HTML/CSS/JS
+                </p>
+                <p>
+                    <span class="orange">Centro De Discectomía Percutanea</span>
+                    - http://daher.com.ve Joomla 3.x + HTML/CSS/JS
+                </p>
+                <p>
+                    <span class="orange">MiGrifo.com</span>
+                    - https://migrifo.com Yii2 + HTML/CSS/JS. Customized PHP development.
+                </p>
+                <p>
+                    <span class="orange">Daesca</span>
+                    - https://daesca.com Yii2 + HTML/CSS/JS. Customized PHP development.
+                </p>
+                <p>
+                    <span class="orange">Key Electric</span>
+                    - http://kayelectric.com.ve Joomla 2.x + HTML/CSS/JS
+                </p>
+                <p>
+                    <span class="orange">Kaba Novedades</span>
+                    - http://kabanovedades.com Joomla 3.x + HTML/CSS/JS
+                </p>
 
-    <div class="large-4 medium-4 cell">
-      <h5>Try one of these buttons:</h5>
-      <p><a href="#" class="small button">Simple Button</a><br/>          
-      <a href="#" class="medium success button">Success Btn</a><br/>
-      <a href="#" class="medium alert button">Alert Btn</a><br/>
-      <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-      <div class="callout">
-        <h5>So many components, girl!</h5>
-        <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-        <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-      </div>
-    </div>
-  </div>
+                <br>
+                <h2>Colombia
+                    <small>With Nous Grupo Creativo</small>
+                </h2>
+                <p>
+                    <span class="orange">Colombian Coffee Tour</span>
+                    - http://coffee.orucode.com Joomla 3.x + HTML/CSS/JS + Customized modules and components. Design by
+                    Nous Grupo Creativo. [standby]
+                </p>
+                <p>
+                    <span class="orange">Digital Sigma</span>
+                    - http://dsnube.com Joomla 3.x + HTML/CSS/JS + Customized modules and components. Design by Nous
+                    Grupo Creativo.
+                </p>
+                <p>
+                    <span class="orange">Cimpa s.a.s</span>
+                    - http://cimpa.com.co Joomla 3.x + HTML/CSS/JS + Customized modules and components. Design by Nous
+                    Grupo Creativo.
+                </p>
+                <p>
+                    <span class="orange">com_nouslp</span>
+                    - Creador de Landing pages. Component for Joomla 3.x about dynamic creation of interactive landing
+                    pages.
+                </p>
+
+                <br>
+                <h2>España
+                    <small>With Love Marketing Madrid</small>
+                </h2>
+                <p>
+                    <span class="orange">Vivir en Parla</span>
+                    - https://vivirenparla.com Joomla 3.x + HTML/CSS/JS + Customized modules and components.
+                </p>
+                <p>
+                    <span class="orange">Vivir en Pinto</span>
+                    - https://vivirenpinto.com Joomla 3.x + HTML/CSS/JS + Customized modules and components.
+                </p>
+                <p>
+                    <span class="orange">Vivir en La Sagra</span>
+                    - https://vivirenlasagra.com Joomla 3.x + HTML/CSS/JS + Customized modules and components.
+                </p>
+                <p>
+                    <span class="orange">Vivir en mi ciudad</span>
+                    - https://vivirenmiciudad.com Joomla 3.x + HTML/CSS/JS + Customized modules and components.
+                </p>
+                <p>
+                    <span class="orange">Escuela libre Allegra</span>
+                    - http://escuelalibreallegra.es Joomla 3.x + HTML/CSS/JS + Customized modules.
+                </p>
+                <p>
+                    <span class="orange">Selección el Manchego</span>
+                    - https://seleccionelmanchego.com PrestaShop 1.5.x + HTML/CSS/JS + Customized payment extension
+                    based in Stripe.
+                </p>
+
+                <br>
+                <h2>España</h2>
+                <p>
+                    <span class="orange">Programas SPAMEX</span>
+                    - https://spamex.es Yii2 + HTML/CSS/JS. Customized PHP development.
+                </p>
+                <p>
+                    <span class="orange">Mascotes Costa Brava</span>
+                    - http://mascotascostabrava.com Joomla 3.x + HTML/CSS/JS + Virtuemart
+                </p>
+
+                <br>
+                <h2>United States</h2>
+                <p>
+                    <span class="orange">Ginecolaser</span>
+                    - http://ginecolaser.com Joomla 3.x + HTML/CSS/JS.
+                </p>
+                <p>
+                    <span class="orange">Percutaneous Discectomy Center</span>
+                    - http://spineherniae.com Joomla 3.x + HTML/CSS/JS.
+                </p>
+                <p>
+                    <span class="orange">Congresos Cadaver Lab</span>
+                    - http://www.congresoscadaverlab.com HTML/CSS/JS.
+                </p>
+                <br>
+                <h2>
+                    CoWorkers
+                </h2>
+                <p>
+                    Nous Creativos - <a href="http://www.nouscreativos.com/"><span class="orange">nouscreativos.com</span></a>
+                </p>
+                <p>
+                    Love Marketing Madrid - <a href="https://lovemarketingmadrid.com/"><span class="orange">lovemarketingmadrid.com</span></a>
+                </p>
+                <p>
+                    Tulio Dávila - <a href="https://www.linkedin.com/in/tuliodavila/"><span class="orange">www.linkedin.com/in/tuliodavila</span></a>
+                </p>
+                <p>
+                    Julio Calvo - <a href="http://www.juliocalvo.net/resume/"><span class="orange">juliocalvo.net</span></a>
+                </p>
+            </div>
+        </div>
+        <div class="grid-x medium-up-4 small-up-2 social-media">
+            <div class="cell text-center">
+                <a href="https://goo.gl/EFqmxn">
+                    <img src="{{root}}assets/img/logos/logo-facebook.svg" alt="Follow me in Facebook">
+                    https://goo.gl/EFqmxn
+                </a>
+            </div>
+            <div class="cell text-center">
+                <a href="https://goo.gl/JQbK1k">
+                    <img src="{{root}}assets/img/logos/logo-linkedin.svg" alt="Follow me in LinkedIN">
+                    https://goo.gl/JQbK1k
+                </a>
+            </div>
+            <div class="cell text-center">
+                <a href="https://goo.gl/EPwLFr">
+                    <img src="{{root}}assets/img/logos/logo-bitbucket.svg" alt="Check my work on Bitbucket">
+                    https://goo.gl/EPwLFr
+                    <br>
+                    (Private repos)
+                </a>
+            </div>
+            <div class="cell text-center">
+                <a href="https://goo.gl/zVr9hB">
+                    <img src="{{root}}assets/img/logos/logo-github.svg" alt="Check my work on github">
+                    https://goo.gl/zVr9hB
+                </a>
+            </div>
+        </div>
+    </section>
 </div>
